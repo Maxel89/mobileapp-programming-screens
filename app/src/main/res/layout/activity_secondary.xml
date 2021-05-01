@@ -7,19 +7,16 @@
     android:layout_height="match_parent"
     android:gravity="center"
     tools:context=".MainActivity">
-
-
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center">
 
-        <Button
-            android:id="@+id/button"
+        <fragment
+            android:id="@+id/fragment"
+            android:name="com.example.screens.BlankFragment"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="openSecondaryActivity"
-            android:text="DO NOT PUSH!" />
+            android:layout_height="wrap_content" />
     </LinearLayout>
 </LinearLayout>
