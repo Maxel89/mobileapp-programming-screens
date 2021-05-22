@@ -19,7 +19,7 @@ Jag ett fragment i vilken jag la till en bild och en text (Se bild nedan).
 ![Alt text](Screenshot_1621684346.png?raw=true "First view")
 
 
-Skapade sedan en ny vy i vilken jag la till fragmentet.
+Skapade sedan en ny vy i vilken jag la till fragmentet som ett element.
 ```
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
