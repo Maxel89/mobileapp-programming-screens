@@ -1,6 +1,6 @@
 
 # Rapport
-Jag skapade även ett fragment i vilken jag la till en bild och en text.
+Jag ett fragment i vilken jag la till en bild och en text (Se bild nedan).
 ```
     <ImageView
         android:id="@+id/imageView2"
@@ -16,8 +16,10 @@ Jag skapade även ett fragment i vilken jag la till en bild och en text.
         android:text="@string/hello_blank_fragment" />
 
 ```
+![Alt text](Screenshot_1621684346.png?raw=true "First view")
 
-Skapade sedan en ny vy i vilken jag la till den fragmentet.
+
+Skapade sedan en ny vy i vilken jag la till fragmentet.
 ```
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -41,6 +43,8 @@ Skapade sedan en ny vy i vilken jag la till den fragmentet.
     </LinearLayout>
 </LinearLayout>
 ```
+
+![Alt text](Screenshot_1621684352.png?raw=true "Second view")
 
 Till sist länkade jag första vyn till andra vyn med en knapp i första vyn.
 
